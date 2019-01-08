@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Display Posts - Date View
- * Plugin URI: https://displayposts.com
+ * Plugin URI: https://github.com/billerickson/Display-Posts-Date-View
  * Description: Display content broken down by month or year. You must have Display Posts installed.
  * Version: 1.0.0
  * Author: Bill Erickson

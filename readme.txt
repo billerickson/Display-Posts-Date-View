@@ -1,11 +1,11 @@
-=== Display Posts, Date View - Break content down by month or year ===
+=== Display Posts - Date View ===
 Contributors: billerickson
 Tags: shortcode, pages, posts, page, query, display, list, date, month, year
 Requires at least: 3.0
 Tested up to: 5.0
 Stable tag: 1.0.0
 
-Add a listing of content on your website using a simple shortcode. Filter the results by category, author, and more.
+List your content broken down by month or year. This is an extension of the [Display Posts](https://wordpress.org/plugins/display-posts-shortcode) plugin.
 
 == Description ==
 

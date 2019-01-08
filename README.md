@@ -1,4 +1,4 @@
-# Display Posts, Date View
+# Display Posts - Date View
 
 **Contributors:** billerickson  
 **Tags:** shortcode, pages, posts, page, query, display, list, date, month, year
