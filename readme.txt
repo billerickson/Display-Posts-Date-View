@@ -37,7 +37,7 @@ If you're a developer, you can use the following filters to customize the markup
 
 1. Install and activate [Display Posts](https://wordpress.org/plugins/display-posts-shortcode)
 1. Install and activate [Display Posts, Date View](https://wordpress.org/plugins/display-posts-date-view)
-1. Add the `[display-posts dipslay_by_month="true"]` shortcode to a post or page.
+1. Add the `[display-posts display_by_month="true"]` shortcode to a post or page.
 
 
 == Changelog ==
