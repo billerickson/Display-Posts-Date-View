@@ -3,7 +3,7 @@
  * Plugin Name: Display Posts - Date View
  * Plugin URI: https://github.com/billerickson/Display-Posts-Date-View
  * Description: Display content broken down by month or year. You must have Display Posts installed.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Bill Erickson
  * Author URI: https://www.billerickson.net
  *
@@ -75,7 +75,10 @@ class BE_DPS_Date_View {
 			return;
 
 		$format = false;
-		if( !empty( $atts['display_by_month'] ) && true === filter_var( $atts['display_by_month'], FILTER_VALIDATE_BOOLEAN ) ) {
+		if( !empty( $atts['display_by_day'] ) && true === filter_var( $atts['display_by_day'], FILTER_VALIDATE_BOOLEAN ) ) {
+			$format = apply_filters( 'display_posts_date_view_day_format', 'F j Y' );
+
+		}elseif( !empty( $atts['display_by_month'] ) && true === filter_var( $atts['display_by_month'], FILTER_VALIDATE_BOOLEAN ) ) {
 			$format = apply_filters( 'display_posts_date_view_month_format', 'F Y' );
 
 		} elseif( !empty( $atts['display_by_year'] ) && true === filter_var( $atts['display_by_year'], FILTER_VALIDATE_BOOLEAN ) ) {
