@@ -2,7 +2,7 @@
 Contributors: billerickson
 Tags: shortcode, pages, posts, page, query, display, list, date, month, year
 Requires at least: 3.0
-Tested up to: 5.2
+Tested up to: 5.5
 Stable tag: 1.1.0
 
 List your content broken down by day, month, or year. This is an extension of the [Display Posts](https://wordpress.org/plugins/display-posts-shortcode) plugin.
